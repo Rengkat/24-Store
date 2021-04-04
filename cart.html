@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="icon" type="image/png" href="./Image/logo.png" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  </head>
+  <body>
+    <!-- ========== container ========== -->
+    <div class="container-grid">
+      <!-- ========== header for top writeup ========= -->
+      <header class="top-header">
+        <!-- display flex for ads and others -->
+
+        <li>
+          Get an extra <span class="pink-text">10% OFF</span> or more for
+          selected Members. Join now, it's free!
+        </li>
+        <ul class="login-options">
+          <!-- display flex -->
+
+          <li>
+            <select name="language" id="">
+              <option value="english">English</option>
+              <option value="chinese">中国人</option>
+              <option value="hausa">Hausa</option>
+              <option value="french">Français</option>
+              <option value="spanish">Español</option>
+              <option value="german">Deutsche</option>
+              <option value="italy">Italiano</option>
+            </select>
+          </li>
+          <li>
+            <select name="currency" id="">
+              <option value="naira">&#8358; NGA</option>
+              <option value="doller">&#36; USD</option>
+              <option value="yan">&#165; CHN</option>
+              <option value="ero">&#128; ERO</option>
+              <option value="pouns">&#163; PUN</option>
+              <option value="ropees">&#x20B9; ROP</option>
+            </select>
+          </li>
+          <li>
+            <a href="#" class="login-register"
+              ><i class="fa fa-user" aria-hidden="true"></i> Login/ Register</a
+            >
+          </li>
+        </ul>
+      </header>
+      <!-- ======= bottom header for cart and login ========= -->
+      <header class="bottom-header">
+        <div class="logo-div">
+          <li><img class="logo" src="/Image/logo.png" alt="" /></li>
+          <li class="name">24 <span class="blue">STORE</span></li>
+        </div>
+        <div class="cart-option">
+          <li>
+            <input type="text" name="" id="" class="search-fild" /><i
+              class="fa fa-search"
+              aria-hidden="true"
+            ></i>
+          </li>
+          <li><i class="fa fa-heart-o top-icon" aria-hidden="true"></i></li>
+          <li><i class="fa fa-cart-plus top-icon" aria-hidden="true"></i></li>
+        </div>
+      </header>
+      <!-- ========== NAV =============== -->
+      <nav><ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#">HOT DEAL</a></li>
+      </ul>
+    </nav>
+    <div class="sub-head">
+      <h3>YOUR CART</h3>
+      
+    </div>
+      <!-- ========== hero ======== -->
+      <section class="hero">
+        <div class="main-hero">
+          <div class="flext-title">
+            <li class="product-title">PRODUCT</li>
+            <li class="quantity-title">QUANTITY</li>
+            <li class="price-title">PRICE</li>
+            <li class="remove-title">REMOVE</li>
+          </div>
+          <div class="main-product-landing">
+            <div class="product-des">
+              <div class="real-product">
+                <li><img src="/Image/shoe 24.jpg" alt=""></li>
+                <li class="product-name">Etnies Men's Jameson 2 ECO Skateboarding Shoe</li>
+              </div>
+              <div class="quantity">
+                <input type="number" name="quantity" id="quantity">
+              </div>
+              <div class="price"><h5>500</h5></div>
+              <h5 class="close-btn">x</h5>
+              <!-- end of landing 1 -->
+            </div>
+            <div class="product-des">
+              <div class="real-product">
+                <li><img src="/Image/shoe 25.jpg" alt=""></li>
+                <li class="product-name">Etnies Men's Jameson 2 ECO Skateboarding Shoe</li>
+              </div>
+              <div class="quantity">
+                <input type="number" name="quantity" id="quantity">
+              </div>
+              <div class="price"><h5>500</h5></div>
+              <h5 class="close-btn">x</h5>
+            </div>
+            
+          </div>
+          
+        </div>
+        <!-- ======= aside for display ===== -->
+        <aside>
+          <h1>Order Summary</h1>
+          <div class="subtotal">
+            <li>Subtotal</li>
+            <li>500</li>
+          </div>
+          <div class="shipping">
+            <li>Shipping</li>
+            <li>500</li>
+          </div>
+          <div class="cupon">
+            <li>Add Coupon Code &#x2192;</li>
+            <li>130</li>
+          </div>
+          <div class="total"><li><h4>Total</h4></li>
+          <li><h4>1000</h4></li></div>
+          <button class="order-btn">
+            CHECKOUT
+          </button>
+        </aside>
+        
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
