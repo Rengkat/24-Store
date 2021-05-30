@@ -264,9 +264,122 @@ button:active {
   width: 100%;
   height: 50vh;
 }
+.newsletter {
+  margin-top: 20rem;
+  grid-column: 1/7;
+  width: 100%;
+  height: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 3rem;
+  text-align: center;
+}
+.newsletter input {
+  width: 40%;
+  padding: 10px 12px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid grey;
+}
+.newsletter button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  outline: none;
+  box-shadow: 0px 1px 20px 7px rgba(000, 000, 000, 0.3);
+  border: 1px solid black;
+  transition: 0.5s all ease;
+}
+.newsletter button:hover {
+  opacity: 0.8;
+}
+.newsletter button:active {
+  transform: translateY(15%);
+  box-shadow: 0px 1px 20px 7px rgba(000, 000, 000, 0.5);
+}
 footer {
-  height: 200px;
+  /* height: 200px; */
   max-width: 100%;
   grid-column: 1/7;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
+  margin-top: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin: auto;
+  padding: 1rem 0rem;
+  color: rgb(196, 195, 195);
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+footer .fa {
+  padding: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  margin: 3px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.copyriht {
+  text-align: center;
+  color: white;
+  padding: 1rem;
 }
